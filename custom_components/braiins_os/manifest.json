@@ -1,0 +1,13 @@
+{
+  "domain": "braiins_os",
+  "name": "Braiins OS",
+  "version": "0.1.0",
+  "config_flow": true,
+  "documentation": "https://github.com/Sarieru/ha-braiins-os",
+  "issue_tracker": "https://github.com/Sarieru/ha-braiins-os/issues",
+  "requirements": [],
+  "codeowners": [
+    "@Sarieru"
+  ],
+  "iot_class": "local_polling"
+}
