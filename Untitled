@@ -1,0 +1,13 @@
+import asyncio
+from braiins_client.client import BraiinsClient
+
+async def main():
+    client = BraiinsClient(
+        host="TU_IP_AQUI",
+        backend="grpc"  # o "s9"
+    )
+
+    data = await client.async_get_summary()
+    print(data)
+
+asyncio.run(main())

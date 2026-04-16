@@ -12,4 +12,4 @@ Work in progress integration for monitoring Braiins OS miners in Home Assistant.
 Early development (not ready for use)
 
 ## Author
-Sar13ru
+Sarieru
