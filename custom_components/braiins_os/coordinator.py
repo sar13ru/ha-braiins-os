@@ -26,7 +26,8 @@ class BraiinsOSCoordinator(DataUpdateCoordinator[dict[str, Any]]):
 
         super().__init__(
             hass,
-            logger=_LOGGER,
+            _LOGGER,
+            config_entry=entry,
             name=f"{DOMAIN}_{self._host}",
             update_interval=timedelta(seconds=30),
         )
